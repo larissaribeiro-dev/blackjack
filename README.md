@@ -43,7 +43,7 @@ O sistema implementa um jogo de Blackjack completo entre um jogador e uma banca 
 - **LEDR[2]** — Empate (TIE)
 - **LEDR[9]** — Indica quando um Ás foi processado
 
-![Mapeamento físico na DE10-Lite](imagens/mapeamento-fpga.png)
+<img src="imagens/mapeamento-fpga.png" width="600"/>
 
 ---
 
@@ -62,7 +62,7 @@ O projeto foi estruturado de forma modular e hierárquica, com separação clara
 
 A FSM possui 13 estados organizados em quatro fases: distribuição inicial, turno do jogador, turno automático da banca e apresentação do resultado.
 
-![Diagrama da FSM](imagens/diagrama-fsm.png)
+<img src="imagens/diagrama-fsm.png" width="400"/>
 
 ---
 
@@ -78,7 +78,7 @@ Os três estados terminais foram validados fisicamente na placa DE10-Lite:
 
 | Vitória (17 vs 21) | Derrota (07 vs 22) | Empate (18 vs 18) |
 |:---:|:---:|:---:|
-| ![WIN](imagens/resultado-win.png) | ![LOSE](imagens/resultado-lose.png) | ![TIE](imagens/resultado-tie.png) |
+| <img src="imagens/resultado-win.png" width="220"/> | <img src="imagens/resultado-lose.png" width="220"/> | <img src="imagens/resultado-tie.png" width="220"/> |
 
 ---
 
@@ -100,6 +100,8 @@ Os três estados terminais foram validados fisicamente na placa DE10-Lite:
 ├── 📁 imagens/
 └── README.md
 ```
+
+---
 
 ## 🛠️ Ferramentas Utilizadas
 
