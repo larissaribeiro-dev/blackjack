@@ -10,6 +10,7 @@
 |---|---|
 | **Instituição** | Universidade Federal do Amazonas (UFAM) |
 | **Faculdade** | Faculdade de Engenharia Elétrica e de Computação (FEEC) |
+| **Departamento** | Eletrônica e Computação (DTEC) |
 | **Disciplina** | Eletrônica Digital II e Laboratório de Eletrônica Digital |
 | **Professor** | Prof. Dr. Thiago Brito |
 | **Ano** | 2026 |
