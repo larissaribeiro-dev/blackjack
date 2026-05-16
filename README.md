@@ -28,6 +28,7 @@
 📁 blackjack/
 ├── 📁 blackjack-verilog/
 ├── 📁 imagens/
+├── .gitignore
 └── README.md
 ```
 
