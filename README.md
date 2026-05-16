@@ -21,6 +21,17 @@
 
 ---
 
+## 🗂️ Estrutura do Repositório
+
+```
+📁 blackjack/
+├── 📁 blackjack-verilog/
+├── 📁 imagens/
+└── README.md
+```
+
+---
+
 ## 📋 Sobre o Projeto
 
 O sistema implementa um jogo de Blackjack completo entre um jogador e uma banca automática. O objetivo é acumular uma pontuação superior à da banca sem ultrapassar 21 pontos. A lógica do jogo é controlada por uma FSM síncrona de 13 estados, com distribuição pseudoaleatória de cartas via LFSR de 6 bits, interface com botões e displays de 7 segmentos da DE10-Lite.
@@ -89,17 +100,6 @@ Os três estados terminais foram validados fisicamente na placa DE10-Lite:
 | Elementos lógicos | 258 (< 1% do chip) |
 | Registradores | 87 |
 | Pinos de I/O | 51 |
-
----
-
-## 🗂️ Estrutura do Repositório
-
-```
-📁 blackjack/
-├── 📁 blackjack-verilog/
-├── 📁 imagens/
-└── README.md
-```
 
 ---
 
