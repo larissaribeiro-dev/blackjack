@@ -1,0 +1,366 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ProjetosQuartus/blackjack_completo/simulation/modelsim
+vBlackJack_StateMachine
+Z1 !s110 1778213295
+!i10b 1
+!s100 `Z^nQDoJGBYM18KcGU0?^2
+I0Z6JXU?k[=E`DNmNW2KSH0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1777492715
+8C:/ProjetosQuartus/blackjack_completo/BlackJack_StateMachine.v
+FC:/ProjetosQuartus/blackjack_completo/BlackJack_StateMachine.v
+L0 19
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1778213295.000000
+!s107 C:/ProjetosQuartus/blackjack_completo/BlackJack_StateMachine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/BlackJack_StateMachine.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/ProjetosQuartus/blackjack_completo
+Z7 tCvgOpt 0
+n@black@jack_@state@machine
+vblackjack_tb
+R1
+!i10b 1
+!s100 iO`flWR=i@3i4l0JLNPVz1
+IP<MY@QNG>3aJ8njL`kK7Q0
+R2
+R0
+w1778213204
+8C:/ProjetosQuartus/blackjack_completo/blackjack_tb.v
+FC:/ProjetosQuartus/blackjack_completo/blackjack_tb.v
+L0 45
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/ProjetosQuartus/blackjack_completo/blackjack_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/blackjack_tb.v|
+!i113 1
+R5
+R6
+R7
+vblackjack_top
+Z8 !s110 1778213292
+!i10b 1
+!s100 n5Cm9FiFaaPACBJET3@ZF3
+I7JVZ6S8RLS=W>=`[:0LeL1
+R2
+R0
+w1777492719
+8C:/ProjetosQuartus/blackjack_completo/blackjack_top.v
+FC:/ProjetosQuartus/blackjack_completo/blackjack_top.v
+L0 28
+R3
+r1
+!s85 0
+31
+Z9 !s108 1778213292.000000
+!s107 C:/ProjetosQuartus/blackjack_completo/blackjack_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/blackjack_top.v|
+!i113 1
+R5
+R6
+R7
+vCardDeck
+Z10 !s110 1778213293
+!i10b 1
+!s100 P@U:JI18Y7Tg?i5DO4]Mz2
+Io51NM><;7K>EMmm1U:7jC0
+R2
+R0
+Z11 w1777414398
+8C:/ProjetosQuartus/blackjack_completo/CardDeck.v
+FC:/ProjetosQuartus/blackjack_completo/CardDeck.v
+L0 18
+R3
+r1
+!s85 0
+31
+Z12 !s108 1778213293.000000
+!s107 C:/ProjetosQuartus/blackjack_completo/CardDeck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/CardDeck.v|
+!i113 1
+R5
+R6
+R7
+n@card@deck
+vcomparador_resultado
+Z13 !s110 1778213294
+!i10b 1
+!s100 FbljeEU<hJV>QHm9Mf`613
+IjBaJ55_Ickh_i6;Z6kSXd2
+R2
+R0
+w1776527202
+8C:/ProjetosQuartus/blackjack_completo/comparador_resultado.v
+FC:/ProjetosQuartus/blackjack_completo/comparador_resultado.v
+L0 36
+R3
+r1
+!s85 0
+31
+Z14 !s108 1778213294.000000
+!s107 C:/ProjetosQuartus/blackjack_completo/comparador_resultado.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/comparador_resultado.v|
+!i113 1
+R5
+R6
+R7
+vcontador_baralho
+R8
+!i10b 1
+!s100 bG]26DHN6_W;4GQPFUYkL0
+IzX[@Y36]?he5=E@NcPMF@2
+R2
+R0
+w1777414279
+8C:/ProjetosQuartus/blackjack_completo/Contador_baralho.v
+FC:/ProjetosQuartus/blackjack_completo/Contador_baralho.v
+L0 25
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/ProjetosQuartus/blackjack_completo/Contador_baralho.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/Contador_baralho.v|
+!i113 1
+R5
+R6
+R7
+vcontrolador_as_banca
+R13
+!i10b 1
+!s100 VbJQd5S3jH99a1Cl@UX6U1
+I16PNdTdNFl4M=dL:MMd1D0
+R2
+R0
+w1776527567
+8C:/ProjetosQuartus/blackjack_completo/controlador_as_banca.v
+FC:/ProjetosQuartus/blackjack_completo/controlador_as_banca.v
+Z15 L0 35
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/ProjetosQuartus/blackjack_completo/controlador_as_banca.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/controlador_as_banca.v|
+!i113 1
+R5
+R6
+R7
+vcontrolador_as_jogador
+R13
+!i10b 1
+!s100 HmOmFOm>QC@J64`BmK]dd3
+Iazd_fNi[a5V??89a9QUzl3
+R2
+R0
+w1777414865
+8C:/ProjetosQuartus/blackjack_completo/controlador_as_jogador.v
+FC:/ProjetosQuartus/blackjack_completo/controlador_as_jogador.v
+Z16 L0 12
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/ProjetosQuartus/blackjack_completo/controlador_as_jogador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/controlador_as_jogador.v|
+!i113 1
+R5
+R6
+R7
+vcontrolador_display
+R13
+!i10b 1
+!s100 50@kE800W:j^9j<[ZJ^@a0
+IEd8agIOeU1]5<NjcC`O8P1
+R2
+R0
+w1777250242
+8C:/ProjetosQuartus/blackjack_completo/controlador_display.v
+FC:/ProjetosQuartus/blackjack_completo/controlador_display.v
+Z17 L0 31
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/ProjetosQuartus/blackjack_completo/controlador_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/controlador_display.v|
+!i113 1
+R5
+R6
+R7
+vCONTROLE
+R8
+!i10b 1
+!s100 ]k9Jfo:OzEhjM9AiZKP[@0
+IFG8Z3GPUT`<7cRNmUaQWR3
+R2
+R0
+R11
+8C:/ProjetosQuartus/blackjack_completo/Controle.v
+FC:/ProjetosQuartus/blackjack_completo/Controle.v
+L0 17
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/ProjetosQuartus/blackjack_completo/Controle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/Controle.v|
+!i113 1
+R5
+R6
+R7
+n@c@o@n@t@r@o@l@e
+vDATAPATH
+R13
+!i10b 1
+!s100 4A`>HS^Fj[32IT^R1?KHH3
+I2oHNiJko60EB]FJgG34`K1
+R2
+R0
+w1777492722
+8C:/ProjetosQuartus/blackjack_completo/DATAPATH.v
+FC:/ProjetosQuartus/blackjack_completo/DATAPATH.v
+R16
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/ProjetosQuartus/blackjack_completo/DATAPATH.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/DATAPATH.v|
+!i113 1
+R5
+R6
+R7
+n@d@a@t@a@p@a@t@h
+vdebouncer
+R1
+!i10b 1
+!s100 ]6F:oGRNMf]@]^RCZD_5l0
+I]:nzb_GlUn:N<_BfQBST:1
+R2
+R0
+w1777415014
+8C:/ProjetosQuartus/blackjack_completo/debouncer.v
+FC:/ProjetosQuartus/blackjack_completo/debouncer.v
+L0 13
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/ProjetosQuartus/blackjack_completo/debouncer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/debouncer.v|
+!i113 1
+R5
+R6
+R7
+vdecodificador_7seg
+R10
+!i10b 1
+!s100 bG9zUOEgmE@b@`MWnoL3D2
+IDjUn33Un=@FkWzCSSbofO2
+R2
+R0
+w1776536528
+8C:/ProjetosQuartus/blackjack_completo/decodificador_7seg.v
+FC:/ProjetosQuartus/blackjack_completo/decodificador_7seg.v
+R15
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/ProjetosQuartus/blackjack_completo/decodificador_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/decodificador_7seg.v|
+!i113 1
+R5
+R6
+R7
+vdecodificador_carta
+R10
+!i10b 1
+!s100 i[EPSfL1IRM_L6;Q<QTnc2
+IjTgj^AfBO;hnc59c=kLXU1
+R2
+R0
+w1776537168
+8C:/ProjetosQuartus/blackjack_completo/decodificador_carta.v
+FC:/ProjetosQuartus/blackjack_completo/decodificador_carta.v
+L0 27
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/ProjetosQuartus/blackjack_completo/decodificador_carta.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/decodificador_carta.v|
+!i113 1
+R5
+R6
+R7
+vdetector_estouro
+R10
+!i10b 1
+!s100 QhGJ9dAkGn7J;TfHmHjH12
+I<Dh@I88X40lH^S;CU=A<^3
+R2
+R0
+w1776535565
+8C:/ProjetosQuartus/blackjack_completo/detector_estouro.v
+FC:/ProjetosQuartus/blackjack_completo/detector_estouro.v
+L0 20
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/ProjetosQuartus/blackjack_completo/detector_estouro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/detector_estouro.v|
+!i113 1
+R5
+R6
+R7
+vregistrador_mao
+R10
+!i10b 1
+!s100 <20K=:<Il;5mQeha_EiN[3
+I1^oz@hT5BCWC[De]Sm@YR1
+R2
+R0
+w1776535985
+8C:/ProjetosQuartus/blackjack_completo/registrador_mao.v
+FC:/ProjetosQuartus/blackjack_completo/registrador_mao.v
+R17
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/ProjetosQuartus/blackjack_completo/registrador_mao.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/ProjetosQuartus/blackjack_completo|C:/ProjetosQuartus/blackjack_completo/registrador_mao.v|
+!i113 1
+R5
+R6
+R7

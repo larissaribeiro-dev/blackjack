@@ -1,0 +1,31 @@
+Quartus Prime Archive log --	C:/ProjetosQuartus/blackjack_completo/blackjack.qarlog
+
+Archive:	C:/ProjetosQuartus/blackjack_completo/blackjack.qar
+Date:		Fri May 08 17:53:00 2026
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/ProjetosQuartus/blackjack_completo/BlackJack_StateMachine.v
+C:/ProjetosQuartus/blackjack_completo/CardDeck.v
+C:/ProjetosQuartus/blackjack_completo/Contador_baralho.v
+C:/ProjetosQuartus/blackjack_completo/Controle.v
+C:/ProjetosQuartus/blackjack_completo/DATAPATH.qsf
+C:/ProjetosQuartus/blackjack_completo/DATAPATH.v
+C:/ProjetosQuartus/blackjack_completo/DATAPATH_assignment_defaults.qdf
+C:/ProjetosQuartus/blackjack_completo/assignment_defaults.qdf
+C:/ProjetosQuartus/blackjack_completo/blackjack.qpf
+C:/ProjetosQuartus/blackjack_completo/blackjack_tb.v
+C:/ProjetosQuartus/blackjack_completo/blackjack_top.v
+C:/ProjetosQuartus/blackjack_completo/comparador_resultado.v
+C:/ProjetosQuartus/blackjack_completo/controlador_as_banca.v
+C:/ProjetosQuartus/blackjack_completo/controlador_as_jogador.v
+C:/ProjetosQuartus/blackjack_completo/controlador_display.v
+C:/ProjetosQuartus/blackjack_completo/debouncer.v
+C:/ProjetosQuartus/blackjack_completo/decodificador_7seg.v
+C:/ProjetosQuartus/blackjack_completo/decodificador_carta.v
+C:/ProjetosQuartus/blackjack_completo/detector_estouro.v
+C:/ProjetosQuartus/blackjack_completo/registrador_mao.v
+	======= Total: 20 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

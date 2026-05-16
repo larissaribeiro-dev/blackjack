@@ -1,0 +1,99 @@
+// ============================================================
+// Módulo      : blackjack_tb (Testbench)
+// Descrição   : Simulação funcional completa do jogo Blackjack.
+//               Testa fluxos de HIT, STAY, decisão do Ás e 
+//               comportamento automático da banca.
+//
+// Configuração: Simula botões (KEY) e chaves (SW) com resistores
+//               de "Weak Pull-Up" ativos (Estado de repouso = 1).
+//               O acionamento é feito por pulsos em nível 0.
+//
+// Autoria     : Gemini (Modelo de IA - Google)
+// Data        : Abril de 2026
+// ============================================================
+
+`timescale 1ns/1ps
+
+module blackjack_tb();
+    // Sinais para conectar ao Top-Level
+    reg clk;
+    reg [1:0] key;
+    reg [9:0] sw;
+    wire [9:0] ledr;
+    wire [6:0] h0, h1, h2, h3;
+
+    // Instância do projeto Blackjack_Top
+    blackjack_top dut (
+        .MAX10_CLK1_50(clk),
+        .KEY(key),
+        .SW(sw),
+        .LEDR(ledr),
+        .HEX0(h0), .HEX1(h1), .HEX2(h2), .HEX3(h3)
+    );
+
+    // Gerador de Clock (50 MHz - Pulsa a cada 10ns) [cite: 24]
+    always #10 clk = ~clk;
+
+    initial begin
+        // --- INICIALIZAÇÃO (Simulando Pull-Up) --- 
+        clk = 0;
+        key = 2'b11; // Botões em 1 (repouso/pull-up ativo)
+        sw = 10'b0;  // Chaves em 0 (repouso)
+        
+        #100;
+        // --- RESET E CAPTURA DA SEMENTE ALEATÓRIA --- [cite: 27]
+        // O contador interno cnt_seed roda sem parar a 50MHz.
+        // O valor capturado para o LFSR depende do milissegundo exato 
+        // em que o RESET é solto[cite: 3, 17].
+        key[1] = 0; // Ativa Reset (ativa a captura da semente)
+        #150;       // Intervalo para variar o cnt_seed
+        key[1] = 1; // Solta Reset (congela a semente para o baralho) [cite: 28]
+        #200;
+
+        // --- CENÁRIO 1: O ÁS ESTRATÉGICO (Valor 11) --- [cite: 29]
+        sw[0] = 1;  // Configura chave para Ás valer 11 [cite: 30]
+        key[0] = 0; // Pulso de HIT (Pede carta) [cite: 31]
+        #100;
+        key[0] = 1; 
+        #1000;
+
+        // --- CENÁRIO 2: PEDINDO MAIS CARTAS (HIT) --- [cite: 33]
+        key[0] = 0; // Segundo HIT
+        #100;
+        key[0] = 1;
+        #1000;
+
+        // --- CENÁRIO 3: ESTOURO DO JOGADOR (BUST) --- [cite: 34]
+        repeat(3) begin
+            key[0] = 0; #100; key[0] = 1;
+            #1000;
+        end
+        // Verifique: LEDR[1] (Lose) deve ativar[cite: 35].
+
+        #2000;
+        key[1] = 0; #100; key[1] = 1; // Novo Reset
+        #500;
+
+        // --- CENÁRIO 4: TURNO AUTOMÁTICO DA BANCA --- [cite: 37]
+        key[0] = 0; #100; key[0] = 1; // Pede uma carta
+        #1000;
+        sw[9] = 1; // Jogador dá STAY (Encerra o turno) [cite: 39]
+        
+        // Observe a banca puxando cartas até atingir >= 17[cite: 39].
+        #15000; 
+
+        // --- CENÁRIO 5: ÁS VALENDO 1 PARA EVITAR ESTOURO --- [cite: 40]
+        key[1] = 0; #100; key[1] = 1; // Reset
+        #500;
+        sw[0] = 0;  // Força Ás valendo 1 [cite: 41]
+        key[0] = 0; #100; key[0] = 1; // HIT [cite: 41]
+        #1000;
+
+        // --- CENÁRIO 6: BANCA ULTRAPASSA 21 (DEALER BUST) --- [cite: 43]
+        sw[9] = 1; // Stay antecipado
+        #20000;    // Aguarda processamento da banca
+        
+        $display("Simulacao concluida. Verifique os sinais no ModelSim.");
+        $stop;
+    end
+endmodule
