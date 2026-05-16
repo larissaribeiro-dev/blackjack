@@ -94,6 +94,14 @@ Os três estados terminais foram validados fisicamente na placa DE10-Lite:
 
 ---
 
+## 🎥 Apresentação em Vídeo
+
+Assista à explicação completa do projeto — arquitetura, FSM, datapath, tratamento do Ás e demonstração prática na DE10-Lite:
+
+<a href="https://youtu.be/tT-axmaR9rg?si=7dsL3k7CaT1P8GgN">
+  <img src="https://img.youtube.com/vi/tT-axmaR9rg/maxresdefault.jpg" width="400"/>
+</a>
+
 ## 📊 Ocupação de Recursos (Síntese — MAX 10)
 
 | Recurso | Utilizado |
